@@ -11,4 +11,4 @@ The first dataset is structured as follows: Each row is an observation of an act
 
 The second dataset's columns are structured identically to the first. Here however, each row records the mean reading of all times the participant performed the specified activity. As such, each participant and activity only appear together once, for a total of 180 rows.
 
-Note that all data has been normalized to take values in the interval [-1,1]
+In addition, this repo contains a codebook describing the variables in the data sets. Note that all of the readings have been normalized to take values in the interval [-1,1]
