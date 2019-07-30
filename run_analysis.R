@@ -37,4 +37,4 @@ data_means <- summarize_all(X_data, ~mean(.))
 
 #  Saves the new dataset as UCI_HAR_datameans.txt to the working directory
 
-write.table(data_means, file="UCI_HAR_datameans.txt")
+write.table(data_means, file="UCI_HAR_datameans.txt", row.names=FALSE)
