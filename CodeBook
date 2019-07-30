@@ -1,4 +1,14 @@
-This codebook is a modified version of the one found in the UCI HAR dataset's features_info.txt file. Large protions of it remain unchanged from that form, but I have edited out the information which is not relevant to this script, and included a few comments at the bottom of the file.
+This codebook is a modified version of the one found in the UCI HAR dataset's features_info.txt file. Large protions of it remain unchanged from that form, but I have edited out the information which is not relevant to this script, added information about the subject and activity variables, and included a comments at the bottom of the file explaining why I chose the variables I did for analysis.
+
+Participants and Activities
+===========================
+
+All readings taken were from a set of 30 volunteers each performing one of six actions for the duration of the measurements. As such, each observation is encoded with a subject number and the activity being performed as follows:
+
+subject - a number from 1 to 30, used to differentiate the volunteer subjects
+
+activity - A variable with six descriptive levels to denote the activity being performed, namely WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, and LAYING
+
 
 Feature Selection 
 =================
